@@ -1,0 +1,25 @@
+{
+  "name": "azviz",
+  "version": "1.0.0",
+  "description": "NodeJS implementation of Azure Visualizer",
+  "main": "AzViz/src/nodejs/exportAzViz.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@azure/arm-resources": "^2.0.0",
+    "@azure/arm-network": "^2.0.0",
+    "@azure/identity": "^2.0.0",
+    "graphviz": "^0.0.9",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^26.0.0"
+  },
+  "author": "Prateek Singh",
+  "license": "MIT"
+}
